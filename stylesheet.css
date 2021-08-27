@@ -1,0 +1,213 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    overflow-x: hidden;
+}
+
+header {
+    background: url('Cover.jpg') no-repeat;
+    background-size: cover;
+    background-color: #e8e23c;
+    background-blend-mode: multiply;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+}
+
+header h1 {
+    color: azure;
+}
+
+header .top-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    font-size: 1rem;
+
+}
+
+header .top-wrapper h1 {
+    margin-bottom: 30px;
+}
+
+.top-wrapper img {
+    border-radius: 35%;
+    border: 6px solid azure;
+    width: 50%;
+    cursor: pointer;
+}
+
+.top-wrapper img:hover {
+    transform: scale(1.1);
+}
+
+header .top-wrapper ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+header .top-wrapper ul li a {
+    text-decoration: none;
+    color: azure;
+    font-size: 1rem;
+    padding-bottom: 10px;
+    
+}
+
+header .top-wrapper ul li a:hover {
+    border-bottom: 1px solid yellow;
+}
+
+.midle-wrapper {
+    background-color: yellow;
+    text-align: center;
+    padding: 15px 10px;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+}
+
+.midle-wrapper .About-me h2 {
+    color: black;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    padding-top: 25px;
+}
+
+.midle-wrapper .About-me p {
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 40px;
+}
+
+.midles-wrapper {
+    background-color: rgb(226, 226, 27);
+    padding: 15px 10px;
+    height: auto;
+    width: 100vw;
+    text-align: center;
+    text-transform: uppercase;
+}
+.Extra-section {
+    margin: 100px 0px;
+}
+
+.midles-wrapper h2 {
+    color: black;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    padding-top: 25px;
+}
+.knowledge-icon span {
+    font-size: 80px;
+}
+
+.Education {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.knowledge {
+    width: 20%;
+    min-width: 250px;
+
+} 
+.bottom-wrapper {
+    background-color: yellow;
+    text-align: center;
+    padding: 15px 10px;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+}
+
+.bottom-wrapper .Contact-me h2 {
+    color: black;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    padding-top: 25px;
+}
+
+ .Contact-me .wrapper-contact input, .Contact-me .wrapper-contact textarea {
+     width: 50%;
+     height: 50px;
+     border: none;
+     border-radius: 11px;
+     padding: 10px 15px;
+     margin-bottom: 18px;
+ }
+
+ .Contact-me .wrapper-contact textarea{
+     height: 120px;
+ }
+
+ .Contact-me .wrapper-contact input[type="submit"] {
+     color: black;
+     text-transform: uppercase;
+     cursor: pointer;
+ }
+
+ footer {
+     width: 100%;
+     background: black;
+     color: azure;
+     text-align: center;
+     padding: 15px 0;
+ }
+
+ .darkmode .midle-wrapper {
+     background-color: #423f3e;
+ }
+
+ .darkmode .midles-wrapper {
+    background-color: #2b2b2b;
+}
+
+.darkmode .bottom-wrapper {
+    background-color: #171010;
+}
+
+.darkmode .bottom-wrapper h2, .darkmode .midle-wrapper h2, .darkmode .midles-wrapper h2, .darkmode p {
+    color: white;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+.button5 {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+  }
+  
+  .button5:hover {
+    background-color: #555555;
+    color: white;
+  }
+
+ .darkmode .knowledge-icon span {
+     color: whi;
+ } 

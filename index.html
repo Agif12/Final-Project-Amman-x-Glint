@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="stylesheet" href="responsive.css">
+        
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+        <script src="https://kit.fontawesome.com/183a761016.js" crossorigin="anonymous"></script>
+        <title>Sagipul Ahyar</title>
+    </head>
+    <body>
+
+        <header>
+            <div class="top-wrapper">
+                <h1>Sagipul Ahyar</h1>
+                <img src="Foto Profil.jpg" alt="Sagipul Ahyar">
+                <ul>
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="#">Education</a></li>
+                    <li><a href="#">Contact Me</a></li>
+            </ul>
+            </div>
+            
+        </header>
+        
+        <div class="midle-wrapper">
+            <div class="About-me">
+                <h2>About Me</h2>
+                <p>Saya adalah pria 22 tahun yang merupakan seorang fresh graduated 
+                    lulusan Universitas Islam Negeri Mataram Program Studi Perbankan 
+                    Syariah yang sangat tertarik dengan dunia coding & IT. Saya juga merupakan terbaik 1
+                    pada yudisium ke-8 fakultas ekonomi dan bisnis islam serta terbaik pada wisuda ke-41 Universitas Islam Negeri Mataram
+                    dengan IPK 3.76. Saya merupakan pribadi yang suka dengan hal baru dan menantang, terutama
+                    pada bidang teknologi informasi.
+                </p>
+            </div>
+        </div>
+
+        <div class="midles-wrapper">
+            <div class="Extra-section">
+                <h2>Education</h2>
+                <div class="container">
+                    <div class="Education">
+                      <div class="knowledge">
+                        <div class="knowledge-icon">
+                            <span class="fas fa-school"></span>
+                          <!-- <img src="https://prog-8.com/images/html/advanced/html.png" alt="" /> -->
+                          <p>Sekolah Dasar</p>
+                        </div>
+                        <p class="txt-contents">Sekolah Dasar Negeri 02 Sekongkang.</p>
+                      </div>
+                      <div class="knowledge">
+                        <div class="knowledge-icon">
+                            <span class="fas fa-school"></span>
+                          <!-- <img src="https://prog-8.com/images/html/advanced/jQuery.png" alt="" /> -->
+                          <p>SMP</p>
+                        </div>
+                        <p class="txt-contents">MTs Al-Aziziyah Putra Kapek.</p>
+                      </div>
+                      <div class="knowledge">
+                        <div class="knowledge-icon">
+                            <span class="fas fa-school"></span>
+                          <!-- <img src="https://prog-8.com/images/html/advanced/ruby.png" alt="" /> -->
+                          <p>SMA</p>
+                        </div>
+                        <p class="txt-contents">MA. Al-Aziziyah Putra Kapek</p>
+                      </div>
+                      <div class="knowledge">
+                        <div class="knowledge-icon">
+                            <span class="fas fa-school"></span>
+                          <!-- <img src="https://prog-8.com/images/html/advanced/php.png" alt="" /> -->
+                          <p>S1</p>
+                        </div>
+                        <p class="txt-contents">Universitas Islam Negeri Mataram</p>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+        <div class="bottom-wrapper">
+            <div class="Contact-me">
+                <h2>Contact Me</h2>
+                <div class="wrapper-contact">
+                    <form action="">
+                        <input type="text" placeholder="Nama Lengkap">
+                        <input type="text" placeholder="Email Anda">
+                        <textarea name="" id="" cols="30" rows="10"
+                        placeholder="Pesan Anda"></textarea>
+                        <input type="submit" value="send">
+                    </form>
+                </div>
+                <button class="button button5" onclick="darkmode()">DARK MODE</button>
+            </div>
+        </div>
+        <footer>
+            copyright &copy; 2021. Sagipul Ahyar All Right Reserved.
+        </footer>
+    </body>
+    <script>
+        function darkmode () {
+            let element=document.body; 
+            element.classList.toggle("darkmode")
+        }
+    </script>
+</html>
